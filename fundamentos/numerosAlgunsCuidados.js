@@ -1,8 +1,16 @@
 // retorna o tipo infinity
 console.log(7/0)
 
-// o js permite dividir strings se só tiver numeros na mesma
-console.log("10"/5)
+// o js permite dividir, multiplicar e subtrair strings se só tiver numeros na mesma
+console.log("10"/ 5)
+console.log("2" * 2)
+console.log("2" - 1)
+
+// Somas não são executas em string porque o + é operador de concatenação
+// A concatenação tem prioridade.
+
+console.log("2" + 1)
+
 
 // O js não permite que se faça esta operação
 console.log("Show!" * 2);

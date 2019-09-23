@@ -27,7 +27,7 @@ console.log(escola.substring(0,4))
 // que pode se conectar a outro, e a outro
 // o concat não faz distinção de valor literal e constantes/variaveis 
 console.log('Escola '.concat(escola).concat("!"))
-
+console.log("Escola " + escola + "!") //Forma alternativa de concatenação
 console.log("Socorro, ".concat('Jesus').concat(`, me ajuda!`))
 
 // o replace busca um caractere e o susbtitui pelo indicado
@@ -38,4 +38,5 @@ console.log(escola.replace(3, 'e'))
 
 // Converter uma string em array, utilizando como base um separador. Neste caso, a vírgula.
 // A sintaxe é: split('separador')
+// A função spli também aceita o uso de regex para identificar o separador
 console.log('Ana, Maria, José'.split(','))
